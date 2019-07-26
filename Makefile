@@ -6,6 +6,7 @@ activate:
 	source venv/bin/activate
 
 develop: venv
+	venv/bin/pip install -e . -r requirements/base.txt
 	venv/bin/pip install -e . -r requirements/test.txt
 
 clean:
