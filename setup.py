@@ -14,12 +14,9 @@ ABOUT = {}
 with open(os.path.join(HERE, 'ddd_api_gateway', '__version__.py')) as f:
     exec(f.read(), ABOUT)
 
+with open(os.path.join(HERE, 'requirements', 'base.txt')) as req:
+    REQUIREMENTS = [line.strip() for line in req.readlines() if line.strip() and not line.strip().startswith('#')]
 
-def read_requirements(req_file):
-    with open(os.path.join(HERE, 'requirements', req_file)) as req:
-        return [line.strip() for line in req.readlines() if line.strip() and not line.strip().startswith('#')]
-
-requirements = read_requirements('base.txt')
 
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',
@@ -51,5 +48,5 @@ setup(
     author_email='wayde.sun@gmail.com',
     url='https://github.com/sunwei/ddd-api-gateway',
     packages=find_packages(exclude=['tests*']),
-    install_requires=requirements,
+    install_requires=REQUIREMENTS,
     classifiers=CLASSIFIERS)
