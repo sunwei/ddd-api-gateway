@@ -1,7 +1,6 @@
 """Setuptools entry point."""
 import codecs
 import os
-from setuptools import find_packages
 
 try:
     from setuptools import setup
@@ -47,6 +46,6 @@ setup(
     author='Sun Wei',
     author_email='wayde.sun@gmail.com',
     url='https://github.com/sunwei/ddd-api-gateway',
-    packages=find_packages(exclude=['tests*']),
+    packages=['ddd_api_gateway', 'requirements'],
     install_requires=REQUIREMENTS,
     classifiers=CLASSIFIERS)
