@@ -16,7 +16,7 @@ with open(os.path.join(HERE, 'ddd_api_gateway', '__version__.py')) as f:
 
 
 def read_requirements(req_file):
-    with open(os.path.join('requirements', req_file)) as req:
+    with open(os.path.join(HERE, 'requirements', req_file)) as req:
         return [line.strip() for line in req.readlines() if line.strip() and not line.strip().startswith('#')]
 
 requirements = read_requirements('base.txt')
