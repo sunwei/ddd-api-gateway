@@ -6,10 +6,9 @@ python:
 - '3.5'
 - '3.6'
 install:
-- pip install python-coveralls tox tox-travis
+- pip install -r requirements/ci.txt
 script: tox --recreate
 after_success:
-- pip install -r requirements.txt -e .
 - py.test --cov=ddd_api_gateway --cov-report=term-missing tests
 - coveralls
 deploy:
