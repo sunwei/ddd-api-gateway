@@ -1,4 +1,4 @@
-from ddd_base.value_object import ValueObject
+from ddd_api_gateway.value_object import ValueObject
 
 
 class TheValueObject(ValueObject):

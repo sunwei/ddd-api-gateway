@@ -1,4 +1,4 @@
-from ddd_base.entity import Entity
+from ddd_api_gateway.entity import Entity
 
 
 def test_entity_sets_ids():

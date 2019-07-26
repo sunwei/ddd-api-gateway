@@ -11,7 +11,7 @@ except ImportError:
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 ABOUT = {}
-with open(os.path.join(HERE, 'ddd_base', '__version__.py')) as f:
+with open(os.path.join(HERE, 'ddd_api_gateway', '__version__.py')) as f:
     exec(f.read(), ABOUT)
 
 CLASSIFIERS = [
