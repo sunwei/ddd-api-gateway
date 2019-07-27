@@ -54,10 +54,9 @@ This software is licensed under the `MIT license <http://en.wikipedia.org/wiki/M
 
 See `License file <https://github.com/sunwei/ddd-base/blob/master/LICENSE>`_
 
-.. |Build Status| image:: https://travis-ci.com/sunwei/ddd-base.svg?branch=master
-   :target: https://travis-ci.com/sunwei/ddd-base
-.. |Pypi Status| image:: https://badge.fury.io/py/ddd-base.svg
-   :target: https://badge.fury.io/py/ddd-base
-.. |Coveralls Status| image:: https://coveralls.io/repos/github/sunwei/ddd-base/badge.svg?branch=master
-   :target: https://coveralls.io/github/sunwei/ddd-base?branch=master
-
+.. |Build Status| image:: https://travis-ci.com/sunwei/ddd-api-gateway.svg?branch=master
+   :target: https://travis-ci.com/sunwei/ddd-api-gateway
+.. |Pypi Status| image:: https://badge.fury.io/py/ddd-api-gateway.svg
+   :target: https://badge.fury.io/py/ddd-api-gateway
+.. |Coveralls Status| image:: https://coveralls.io/repos/github/sunwei/ddd-api-gateway/badge.svg?branch=master
+   :target: https://coveralls.io/github/sunwei/ddd-api-gateway?branch=master
