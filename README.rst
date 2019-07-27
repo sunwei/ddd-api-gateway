@@ -1,5 +1,5 @@
-DDD Base Framework
-==================
+DDD Api Gateway Framework
+=========================
 
 |Build Status| |Pypi Status| |Coveralls Status|
 
@@ -16,7 +16,7 @@ From pypi:
 
 ::
 
-    pip install ddd-base
+    pip install ddd-api-gateway
 
 Usage
 -----

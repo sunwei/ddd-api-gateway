@@ -18,6 +18,3 @@ class RouteSpecification(ValueObject):
         return self.api_ref == other.api_ref \
             and self.upstream_ref == other.upstream_ref \
             and self.policies == other.policies
-
-    def same_as(self, other):
-        return self == other
