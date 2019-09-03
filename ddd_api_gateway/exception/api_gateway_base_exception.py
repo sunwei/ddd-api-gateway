@@ -6,4 +6,4 @@ class ApiGWBaseException(Exception):
 
     def __init__(self, msg):
         super().__init__()
-        print(msg)
+        self.message = msg

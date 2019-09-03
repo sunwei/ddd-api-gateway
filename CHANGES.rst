@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.5
+-----
+
+- Expose exceptions message
+
 0.0.4
 -----
 
