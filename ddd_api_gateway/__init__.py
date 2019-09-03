@@ -5,3 +5,8 @@ from .metadata import Metadata
 from .namespace import Namespace
 from .route_specification import RouteSpecification
 from .upstream import Upstream
+from .exception import (
+    ApiGWBaseException, ApiGWUpstreamError,
+    ApiGWRouteSpecificationError, ApiGWMetadataError,
+    ApiGWApiError
+)
