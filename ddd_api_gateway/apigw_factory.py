@@ -124,7 +124,8 @@ class ApiGWJsonBuilder(ApiGWBuilder):
             api_gw.route_specifications.append(RouteSpecification(
                 api_ref=val["apiRef"],
                 upstream_ref=val["upstreamRef"],
-                policies=val["policies"]
+                policies=val["policies"],
+                tls=val["tls"]
             ))
 
     def build(self):

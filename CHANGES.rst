@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.7
+-----
+
+- Route specification need ssl
+
 0.0.6
 -----
 

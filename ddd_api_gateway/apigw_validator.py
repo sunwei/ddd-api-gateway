@@ -51,6 +51,7 @@ class ApiGWValidatorV1(ApiGWValidator):
         if route_specification is not None:
             if 'apiRef' in route_specification \
                 and 'upstreamRef' in route_specification \
+                    and 'tls' in route_specification \
                     and 'policies' in route_specification:
                 check_result = True
         return check_result

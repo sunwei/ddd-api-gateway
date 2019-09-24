@@ -45,6 +45,7 @@
     {
       "apiRef": "Warehouse Inventory",
       "upstreamRef": "Inventory",
+      "tls": "on",
       "policies":{
         "authentication": {
           "type": "Basic"
@@ -53,6 +54,7 @@
     }, {
       "apiRef": "Warehouse Pricing",
       "upstreamRef": "Pricing",
+      "tls": "off",
       "policies":{
         "authentication": {
           "type": "Basic"
